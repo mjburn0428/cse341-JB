@@ -3,20 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mjburn0428/cse341-JB.git"
-  },
-  "author": "Joe Burner",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mjburn0428/cse341-JB/issues"
+  "dependencies": {
+    "express": "^4.19.2"
   },
-  "homepage": "https://github.com/mjburn0428/cse341-JB#readme"
-
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
