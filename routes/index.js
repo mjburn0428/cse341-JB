@@ -1,4 +1,3 @@
-//routes
 const {awesomeFunction} = require('../controllers');
 
 const routes = require('express').Router();

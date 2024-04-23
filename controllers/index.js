@@ -1,4 +1,3 @@
-//controllers
 const awesomeFunction = (req, res, next) => {
     res.json('Jenny Burner');
 };
