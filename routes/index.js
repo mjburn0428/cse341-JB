@@ -1,4 +1,5 @@
-const { awesomeFunction } = require('../controllers');
+//routes
+const {awesomeFunction} = require('../controllers');
 
 const routes = require('express').Router();
 
