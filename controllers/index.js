@@ -1,12 +1,12 @@
-const awesomeFunction = (req, res, next) => {
+const awesomeFunction = (req, res) => {
     res.json('Jenny Burner');
 };
 
-const returnanotherAnimal = (req, res, next) => {
+const returnanotherAnimal = (req, res) => {
     res.json('Hershey Burner');
 };
 
-const returnanotherAnimal2 = (req, res, next) => {
+const returnanotherAnimal2 = (req, res) => {
     res.json('Kit Burner');
 };
 

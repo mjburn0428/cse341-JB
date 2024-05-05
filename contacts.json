@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Jenny",
+        "lastName": "Burner",
+        "email": "jennyburner727@testmail.com",
+        "favoriteColor": "Red",
+        "birthday": "07/27/1980"
+    },
+    {
+        "firstName": "Chris",
+        "lastName": "Frasure",
+        "email": "chris_frasure@deltava.org",
+        "favoriteColor": "Blue",
+        "birthday": "10/22/75"
+    },
+    {
+        "firstName": "Mike",
+        "lastName": "Burner",
+        "email": "mikeburner@testmail.com",
+        "favoriteColor": "White",
+        "birthday": "07/31/1956"
+    }
+]
