@@ -1,17 +1,6 @@
-const routes = require('express').Router();
-const myController = require('../controllers');
-const contactsController = require('../controllers/contacts');
-const jbController = require('../controllers/team2');
+const express = require('express');
+const router = express.Router();
 
-//lesson1
-routes.get('/', myController.awesomeFunction);
-routes.get('/awesome', myController.returnanotherAnimal);
-routes.get('/awesome2', myController.returnanotherAnimal2);
+router.use('/contacts', require('./contacts'))
 
-//lesson2
-routes.get('/', contactsController.getAllContacts);
-routes.get('/', contactsController.getSingleContact);
-routes.get('/', jbController.professionalRoute);
-
-
-module.exports = routes;
+module.exports = router;
