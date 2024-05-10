@@ -12,7 +12,7 @@ GET http://localhost:8080/contacts/6637070845d675983b875cf1
 ###
 GET http://localhost:8080/contacts/6637070845d675983b875cf2
 ###
-GET http://localhost:
+GET http://localhost:localhost:8080/contacts/663d9c34a74354e3b94af183
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
@@ -21,7 +21,7 @@ content-type: application/json
 {
     "firstName":"Courtney",
     "lastName":"Purser",
-    "email":"Courtney.Purser@test.com",
+    "email":"Courtney.Purser@mailtest.com",
     "favoriteColor":"Blue",
     "birthday":"08/26/1985"
 }
@@ -37,7 +37,7 @@ content-type: application/json
 {
     "firstName":"Courtney",
     "lastName":"Purser",
-    "email":"Courtney.Purser@test.com",
+    "email":"Courtney.Purser@mailtest.com",
     "favoriteColor":"Blue",
     "birthday":"08/26/1985"
 }
