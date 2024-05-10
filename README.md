@@ -1,9 +1,3 @@
-# How to run it
+My CSE341 Repo Code.
 
-Run npm install and npm start from the backend folder in the terminal
-
-Test the endpoints in the routes.rest file with Rest Client or another similar tool.
-
-### Video
-
-[Video Example for Students without showing all code](https://www.youtube.com/watch?v=MhObHmqk58U)
+Author: Joe Burner
