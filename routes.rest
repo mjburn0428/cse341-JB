@@ -56,11 +56,11 @@ POST https://cse341-jb.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Jake",
-    "lastName":"Olsen",
-    "email":"Jake.Olsen@mailtest.com",
+    "firstName":"Courtney",
+    "lastName":"Purser",
+    "email":"Courtney.Purser@mailtest.com",
     "favoriteColor":"Red",
-    "birthday":"05/17/1983"
+    "birthday":"08/26/1985"
 }
 
 
