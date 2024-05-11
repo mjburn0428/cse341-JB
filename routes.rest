@@ -41,7 +41,7 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/663ec810aaec4375d8f0e366
+DELETE http://localhost:8080/contacts/663ecdf865d5854063d4df50 
 
 
 
@@ -78,13 +78,5 @@ content-type: application/json
 
 
 ### DELETE contact on production
-DELETE https://cse341-jb.onrender.com/contacts/663ecdf865d5854063d4df50 HTTP/1.1
-content-type: application/json
+DELETE https://cse341-jb.onrender.com/contacts/663edb3c1ad4e299b7dd8788 HTTP/1.1
 
-{
-    "firstName":"Cori",
-    "lastName":"Burner",
-    "email":"Cori.Burner@mailtest.com",
-    "favoriteColor":"Green",
-    "birthday":"12/17/1959"
-}
