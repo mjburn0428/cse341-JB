@@ -21,11 +21,11 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Zach",
+    "firstName":"Frank",
     "lastName":"Powell",
-    "email":"Zach.Powell@mailtest.com",
+    "email":"Frank.Powell@mailtest.com",
     "favoriteColor":"Red",
-    "birthday":"07/11/1997"
+    "birthday":"08/11/1977"
 }
 
 ### PUT contact
@@ -36,12 +36,12 @@ content-type: application/json
     "firstName":"Courtney",
     "lastName":"Purser",
     "email":"Courtney.Purser@testmail.com",
-    "favoriteColor":"Red",
+    "favoriteColor":"Blue",
     "birthday":"08/26/1985"
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/663ecdf865d5854063d4df50 
+DELETE http://localhost:8080/contacts/663edd83a78d2596ec7d78c8 
 
 
 
@@ -56,10 +56,10 @@ POST https://cse341-jb.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Cori",
-    "lastName":"Burner",
-    "email":"Cori.Burner@mailtest.com",
-    "favoriteColor":"Green",
+    "firstName":"Rick",
+    "lastName":"Olsen",
+    "email":"Rick.Olsen@mailtest.com",
+    "favoriteColor":"Red",
     "birthday":"12/17/1959"
 }
 
