@@ -29,19 +29,19 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT http://localhost:8080/contacts/663d9c34a74354e3b94af183 HTTP/1.1
+PUT http://localhost:8080/contacts/663ee069ab85ae392d0f7077 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Courtney",
-    "lastName":"Purser",
-    "email":"Courtney.Purser@testmail.com",
-    "favoriteColor":"Blue",
-    "birthday":"08/26/1985"
+    "firstName":"Frank",
+    "lastName":"Powell",
+    "email":"Frank.Powell@mailtest.com",
+    "favoriteColor":"Purple",
+    "birthday":"01/15/1950"
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/663edd83a78d2596ec7d78c8 
+DELETE http://localhost:8080/contacts/663ee069ab85ae392d0f7077 
 
 
 
@@ -51,32 +51,31 @@ DELETE http://localhost:8080/contacts/663edd83a78d2596ec7d78c8
 GET https://cse341-jb.onrender.com/contacts HTTP/1.1
 
 
-### Create contact pn production
+### Create contact on production
 POST https://cse341-jb.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Rick",
+    "firstName":"Jake",
     "lastName":"Olsen",
-    "email":"Rick.Olsen@mailtest.com",
+    "email":"Jake.Olsen@mailtest.com",
     "favoriteColor":"Red",
-    "birthday":"12/17/1959"
+    "birthday":"05/17/1983"
 }
 
 
 ### PUT contact on production
-PUT https://cse341-jb.onrender.com/contacts/663d9c34a74354e3b94af183 HTTP/1.1
+PUT https://cse341-jb.onrender.com/contacts/663ee136c8f2b27c06ddad46 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Courtney",
-    "lastName":"Purser",
-    "email":"Courtney.Purser@mailtest.com",
-    "favoriteColor":"Blue",
-    "birthday":"08/26/1985"
+    "firstName":"Jake",
+    "lastName":"Olsen",
+    "email":"Jake.Olsen@mailtest.com",
+    "favoriteColor":"Red",
+    "birthday":"04/12/1983"
 }
 
-
 ### DELETE contact on production
-DELETE https://cse341-jb.onrender.com/contacts/663edb3c1ad4e299b7dd8788 HTTP/1.1
+DELETE https://cse341-jb.onrender.com/contacts/663ee1bdc8f2b27c06ddad47 HTTP/1.1
 
