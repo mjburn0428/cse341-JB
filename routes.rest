@@ -12,26 +12,60 @@ GET http://localhost:8080/contacts/6637070845d675983b875cf1
 ###
 GET http://localhost:8080/contacts/6637070845d675983b875cf2
 ###
-GET http://localhost:localhost:8080/contacts/663d9c34a74354e3b94af183
+GET http://localhost:8080/contacts/663d9c34a74354e3b94af183
+###
+GET http://localhost:8080/contacts/663ec810aaec4375d8f0e366
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
+    "firstName":"Zach",
+    "lastName":"Powell",
+    "email":"Zach.Powell@mailtest.com",
+    "favoriteColor":"Red",
+    "birthday":"07/11/1997"
+}
+
+### PUT contact
+PUT http://localhost:8080/contacts/663d9c34a74354e3b94af183 HTTP/1.1
+content-type: application/json
+
+{
     "firstName":"Courtney",
     "lastName":"Purser",
-    "email":"Courtney.Purser@mailtest.com",
-    "favoriteColor":"Blue",
+    "email":"Courtney.Purser@testmail.com",
+    "favoriteColor":"Red",
     "birthday":"08/26/1985"
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/
+DELETE http://localhost:8080/contacts/663ec810aaec4375d8f0e366
 
 
-### PUT contact
-PUT https://cse341-jb.onrender.com/contacts/663d9a9da74354e3b94af182 HTTP/1.1
+
+// PRODUCTION Deploy
+
+### Get all contacts on production
+GET https://cse341-jb.onrender.com/contacts HTTP/1.1
+
+
+### Create contact pn production
+POST https://cse341-jb.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Cori",
+    "lastName":"Burner",
+    "email":"Cori.Burner@mailtest.com",
+    "favoriteColor":"Green",
+    "birthday":"12/17/1959"
+}
+
+
+### PUT contact on production
+PUT https://cse341-jb.onrender.com/contacts/663d9c34a74354e3b94af183 HTTP/1.1
 content-type: application/json
 
 {
@@ -43,6 +77,14 @@ content-type: application/json
 }
 
 
-// PRODUCTION Deploy
-###
-GET https://cse341-jb.onrender.com/contacts
+### DELETE contact on production
+DELETE https://cse341-jb.onrender.com/contacts/663ecdf865d5854063d4df50 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Cori",
+    "lastName":"Burner",
+    "email":"Cori.Burner@mailtest.com",
+    "favoriteColor":"Green",
+    "birthday":"12/17/1959"
+}
