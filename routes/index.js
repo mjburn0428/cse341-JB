@@ -11,5 +11,7 @@ router.get('/awesome2', myController.returnanotherAnimal2);
 //lesson2
 router.use('/contacts', require('./contacts'))
 
+//lesson4 Swagger
+router.use('/', require('./swagger'));
 
 module.exports = router;
