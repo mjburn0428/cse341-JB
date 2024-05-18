@@ -4,7 +4,7 @@ const myController = require('../controllers');
 
 
 //lesson1
-router.get('/', myController.awesomeFunction);
+router.get('/wifey', myController.awesomeFunction);
 router.get('/awesome', myController.returnanotherAnimal);
 router.get('/awesome2', myController.returnanotherAnimal2);
 
