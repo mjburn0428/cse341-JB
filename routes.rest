@@ -52,6 +52,8 @@ DELETE http://localhost:8080/contacts/663ee069ab85ae392d0f7077
 ### Get all contacts on production
 GET https://cse341-jb.onrender.com/contacts HTTP/1.1
 
+### Get api-docs
+GET https://cse341-jb.onrender.com/api-docs/#/ HTTP/1.1
 
 ### Create contact on production
 POST https://cse341-jb.onrender.com/contacts HTTP/1.1
