@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Contacts Project BYU-I'
   },
-  host: 'https://cse341-jb.onrender.com',
+  host: 'cse341-jb.onrender.com',
   schemes: ['https']
 };
 
@@ -16,6 +16,6 @@ const endpointsFiles = ['./routes/index.js'];
 swaggerAutogen(outputFile, endpointsFiles, doc);
 
 // Run server after it gets generated
-// swaggerAutogen(outputFile, endpointsFiles, doc).then(async () => {
-//   await import('./index.js');
-// });
+//swaggerAutogen(outputFile, endpointsFiles, doc).then(async () => {
+  //await import('./index.js');
+//});
