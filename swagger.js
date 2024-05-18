@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Contacts Project BYU-I'
   },
-  host: 'https://cse341-jb.onrender.com',
+  host: 'cse341-jb.onrender.com',
   schemes: ['https']
 };
 

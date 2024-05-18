@@ -5,13 +5,13 @@
     "description": "Contacts Project BYU-I",
     "version": "1.0.0"
   },
-  "host": "https://cse341-jb.onrender.com",
+  "host": "cse341-jb.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
   ],
   "paths": {
-    "/": {
+    "/wifey": {
       "get": {
         "description": "",
         "responses": {
