@@ -9,7 +9,7 @@ const app = express();
 app
   .use(bodyParser.json())
   .use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://cse341-contacts-frontend.netlify.app/');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
       'Access-Control-Allow-Origin',
       'Origin, X-Requested-with, Content-Type, Accept, Z-Key'
@@ -17,7 +17,7 @@ app
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     next();
-    
+
   })
   .use('/', require('./routes'));
 
